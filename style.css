@@ -1,0 +1,109 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-size: 10.4px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    position: relative;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+td .number {
+    background-color: rgb(18, 230, 223);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+}
+
+td .atomic-symbol {
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 12px;
+    text-align: center;
+}
+
+td .name {
+    margin-top: 18px;
+    text-align: center;
+}
+
+.title-periodic {
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: green;
+    color: white;
+}
+
+.period-column {
+    background-color: rgb(232, 78, 153);
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    text-align: right;
+}
+
+.group-column {
+    margin-top: 10px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    background-color: rgb(54, 96, 199);
+}
+
+.Lanthanides {
+    background-color: rgba(5, 78, 234, 0.865);
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    text-align: right;
+}
+
+.Actinides {
+    background-color: rgb(4, 208, 24);
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    text-align: right;
+    padding: 5px;
+}
+
+.weird-land1 {
+    background-color: rgb(157, 233, 238);
+}
+
+.weird-land2 {
+    background-color: rgb(119, 246, 142);
+}
+
+/* .informacion {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+    Otras propiedades CSS para mostrar el elemento}
+*/
